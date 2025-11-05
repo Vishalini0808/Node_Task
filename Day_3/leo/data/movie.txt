@@ -1,0 +1,6 @@
+Movie Name: LEO
+Director: Lokesh Kanagaraj
+Cast: Vijay, Trisha, Sanjay Dutt, Arjun
+Language: Tamil
+Show Timings: 10AM, 2PM, 6PM, 9PM
+Ticket Price: ₹150
