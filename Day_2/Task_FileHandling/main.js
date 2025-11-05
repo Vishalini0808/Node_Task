@@ -1,34 +1,24 @@
 // main.js
-const generateFibonacci = require('./generate');
-const writeFibonacciToFile = require('./writeFile');
-const readFibonacciFile = require('./readFile');
-const appendInfo = require('./appendFile');
-const deleteFile = require('./deleteFile');
+import generateFibonacci from './generate.js';
+import writeFibonacciToFile from './writeFile.js';
+import readFibonacciFile from './readFile.js';
+import appendInfo from './appendFile.js';
+import deleteFile from './deleteFile.js';
 
 const filename = 'fibonacci.txt';
 const n = 10;
 
-//  Generate
+// Generate
 const series = generateFibonacci(n);
 
-//  Write
+// Write
 writeFibonacciToFile(filename, series);
 
-//  Read
+// Read
 readFibonacciFile(filename);
 
-//  Append
+// Append
 appendInfo(filename, '\nThis file contains Fibonacci series.');
 
-//  Delete
-// Uncomment below to delete the file at the end
+// Delete (optional)
 // deleteFile(filename);
-
-
-
-// It connects all other modules and runs them in order:
-// Create Fibonacci series
-// Write it to a file
-// Read and display the content
-// Append an extra note
-// (Optional) Delete the file at the end
